@@ -1,0 +1,666 @@
+{
+    "connections": [
+        {
+            "in_id": "{91d23147-87c1-4405-a604-96fe7a54d9da}",
+            "in_index": 0,
+            "out_id": "{89609457-5e8f-4221-8787-70bb4e730452}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{89609457-5e8f-4221-8787-70bb4e730452}",
+            "in_index": 0,
+            "out_id": "{f7118dc7-eb95-4dbe-8358-d4cc6393b983}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{6aad0d1d-8131-4e16-842a-e66133db5a6c}",
+            "in_index": 1,
+            "out_id": "{22678b5f-5423-46d3-aa09-c569a503be71}",
+            "out_index": 1
+        },
+        {
+            "in_id": "{6aad0d1d-8131-4e16-842a-e66133db5a6c}",
+            "in_index": 0,
+            "out_id": "{22678b5f-5423-46d3-aa09-c569a503be71}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{f7118dc7-eb95-4dbe-8358-d4cc6393b983}",
+            "in_index": 0,
+            "out_id": "{2c59e09c-bcf9-4610-951a-eb422d988a6e}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{e23b5d28-1f55-405c-b62d-1b84a080fe88}",
+            "in_index": 0,
+            "out_id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{bc22f084-984c-438e-8fc2-c0b5ab29ce1c}",
+            "in_index": 0,
+            "out_id": "{c2ff50f3-02c0-4ebb-84c8-d363371c45ff}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{22678b5f-5423-46d3-aa09-c569a503be71}",
+            "in_index": 0,
+            "out_id": "{89609457-5e8f-4221-8787-70bb4e730452}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "in_index": 0,
+            "out_id": "{bc22f084-984c-438e-8fc2-c0b5ab29ce1c}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{ce6b060a-9d83-42e8-803c-58da371ab2bd}",
+            "in_index": 0,
+            "out_id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{a9684823-1f0d-4baf-b6cf-2f9639094e16}",
+            "in_index": 0,
+            "out_id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{26c17e2a-d793-4ea8-a800-b07cfc0ded12}",
+            "in_index": 0,
+            "out_id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{956ab2ae-438a-4b2e-bfd9-b04812ecdf3d}",
+            "in_index": 0,
+            "out_id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9d202e7f-6dfc-4322-ab33-09b1cd1f8b6d}",
+            "in_index": 0,
+            "out_id": "{956ab2ae-438a-4b2e-bfd9-b04812ecdf3d}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{59526fdd-38b1-452b-92b4-5e1255cd227b}",
+            "in_index": 0,
+            "out_id": "{6aad0d1d-8131-4e16-842a-e66133db5a6c}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{26151f08-8471-45af-b772-9c3b8e870e97}",
+            "in_index": 0,
+            "out_id": "{59526fdd-38b1-452b-92b4-5e1255cd227b}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{bfcd62d6-f8cf-4bc3-b5f0-40002c1980df}",
+            "in_index": 0,
+            "out_id": "{59526fdd-38b1-452b-92b4-5e1255cd227b}",
+            "out_index": 1
+        }
+    ],
+    "nodes": [
+        {
+            "id": "{2c59e09c-bcf9-4610-951a-eb422d988a6e}",
+            "model": {
+                "name": "ButtonRun"
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -994.3939244836417,
+                "y": 431.10024087169586
+            }
+        },
+        {
+            "id": "{e23b5d28-1f55-405c-b62d-1b84a080fe88}",
+            "model": {
+                "height": 92,
+                "label": {
+                    "bold": false,
+                    "font": "Ubuntu",
+                    "height": 498,
+                    "key": "var sum_objs = payload.DeepDetect.obj_count[0].count + payload.DeepDetect.obj_count[1].count \n\nlabel = \"จำนวน Relay ทั้งหมด  \" + sum_objs + \"  ตัว\"",
+                    "size": 14,
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "splt0": 320,
+                        "splt1": 80,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    },
+                    "width": 873
+                },
+                "name": "Label",
+                "node_enable": true,
+                "width": 312
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -333.345,
+                "y": 1029.7483636363636
+            }
+        },
+        {
+            "id": "{89609457-5e8f-4221-8787-70bb4e730452}",
+            "model": {
+                "data": {
+                    "curr_tap": 2,
+                    "draw_roi": true,
+                    "enable_tracking": false,
+                    "font_scale": 1.2,
+                    "font_thickness": 2,
+                    "frame_buffer": 5,
+                    "map_det_cfgs": [
+                        {
+                            "backend_gpu": false,
+                            "config_name": "01",
+                            "config_path": "D:/All Cira Core/NewHandCrop07/20221120_01_50_22_0.0397"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "02",
+                            "config_path": "D:/All Cira Core/NewHandCrop06/20221120_01_23_24_0.0503"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "87i79ik",
+                            "config_path": "D:/All Cira Core/HandCrop02/20221119_18_35_52_0.0231"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "lab01",
+                            "config_path": "D:/All Cira Core/LabRelay/20221121_08_03_32_0.0634"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "lab02",
+                            "config_path": "D:/All Cira Core/LabRelay02/20221121_08_21_10_0.0547"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "labaddcon01",
+                            "config_path": "D:/All Cira Core/LabRelayAddConecter01/20221121_14_10_16_0.0661"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "labrelayadddd02",
+                            "config_path": "D:/All Cira Core/LabRelayAddConecter02/20221121_15_39_31_0.0523"
+                        }
+                    ],
+                    "max_dist": 150,
+                    "nms": 0.4,
+                    "rect_thickness": 2,
+                    "result_drawing": true,
+                    "roi_h": 5000,
+                    "roi_w": 5000,
+                    "roi_x": 0,
+                    "roi_y": 0,
+                    "show_confidence": true,
+                    "text_drawing": true,
+                    "this_config_name": "lab01",
+                    "thresh": 50,
+                    "txt_offset": 10
+                },
+                "name": "DeepDetect ",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -603.61794672,
+                "y": 425.3420248799999
+            }
+        },
+        {
+            "id": "{91d23147-87c1-4405-a604-96fe7a54d9da}",
+            "model": {
+                "height": 388,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 622
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -399.061569085449,
+                "y": -105.19760333090497
+            }
+        },
+        {
+            "id": "{22678b5f-5423-46d3-aa09-c569a503be71}",
+            "model": {
+                "data": {
+                    "height": 440,
+                    "js_code": "var state = payload.DeepDetect.objects\nvar len = state.length\n\nfor(var i = 0; i < len; i++){\n     if(state[i].name == \"NG\"){\n         ifelse = true\n    }else if (state[i].name == \"OK\"){\n         ifelse = false\n    }\n}",
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "splt0": 345,
+                        "splt1": 88,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    },
+                    "width": 423
+                },
+                "name": "IfElse",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -366.49485894695556,
+                "y": 430.58294337948143
+            }
+        },
+        {
+            "id": "{26151f08-8471-45af-b772-9c3b8e870e97}",
+            "model": {
+                "data": {
+                    "port": "COM5",
+                    "script": "serial = \"1\""
+                },
+                "name": "SerialWrite",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 131.95198359379413,
+                "y": 385.1443568405633
+            }
+        },
+        {
+            "id": "{c2ff50f3-02c0-4ebb-84c8-d363371c45ff}",
+            "model": {
+                "name": "ButtonRun"
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -984.7630312762363,
+                "y": 1236.8371903316818
+            }
+        },
+        {
+            "id": "{f7118dc7-eb95-4dbe-8358-d4cc6393b983}",
+            "model": {
+                "data": {
+                    "camera_device": "0 : Signo Camera WB-400"
+                },
+                "name": "WebCam",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -822.7670742126272,
+                "y": 432.40341568439914
+            }
+        },
+        {
+            "id": "{bc22f084-984c-438e-8fc2-c0b5ab29ce1c}",
+            "model": {
+                "data": {
+                    "filename": "D:/All Cira Core/Relay/Relay/Video/1668624634837.avi",
+                    "height": 258,
+                    "loop": true,
+                    "width": 284
+                },
+                "name": "VideoFile",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -783.2518524353451,
+                "y": 1240.2759599329004
+            }
+        },
+        {
+            "id": "{6aad0d1d-8131-4e16-842a-e66133db5a6c}",
+            "model": {
+                "name": "WaitFlows",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -144.98036664743805,
+                "y": 413.77943957935315
+            }
+        },
+        {
+            "id": "{bfcd62d6-f8cf-4bc3-b5f0-40002c1980df}",
+            "model": {
+                "data": {
+                    "port": "COM5",
+                    "script": "serial = \"2\""
+                },
+                "name": "SerialWrite",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 145.1364730186177,
+                "y": 466.9470547598344
+            }
+        },
+        {
+            "id": "{6194473d-e6df-4222-94c2-0f80a3836b1f}",
+            "model": {
+                "data": {
+                    "curr_tap": 2,
+                    "draw_roi": true,
+                    "enable_tracking": true,
+                    "font_scale": 1.2,
+                    "font_thickness": 2,
+                    "frame_buffer": 5,
+                    "map_det_cfgs": [
+                        {
+                            "backend_gpu": false,
+                            "config_name": "01",
+                            "config_path": "D:/All Cira Core/NewHandCrop07/20221120_01_50_22_0.0397"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "02",
+                            "config_path": "D:/All Cira Core/NewHandCrop06/20221120_01_23_24_0.0503"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "87i79ik",
+                            "config_path": "D:/All Cira Core/HandCrop02/20221119_18_35_52_0.0231"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "lab01",
+                            "config_path": "D:/All Cira Core/LabRelay/20221121_08_03_32_0.0634"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "lab02",
+                            "config_path": "D:/All Cira Core/LabRelay02/20221121_08_21_10_0.0547"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "labaddcon01",
+                            "config_path": "D:/All Cira Core/LabRelayAddConecter01/20221121_14_10_16_0.0661"
+                        },
+                        {
+                            "backend_gpu": false,
+                            "config_name": "labrelayadddd02",
+                            "config_path": "D:/All Cira Core/LabRelayAddConecter02/20221121_15_39_31_0.0523"
+                        }
+                    ],
+                    "max_dist": 150,
+                    "nms": 0.4,
+                    "rect_thickness": 2,
+                    "result_drawing": true,
+                    "roi_h": 5000,
+                    "roi_w": 5000,
+                    "roi_x": 0,
+                    "roi_y": 0,
+                    "show_confidence": true,
+                    "text_drawing": true,
+                    "this_config_name": "02",
+                    "thresh": 50,
+                    "txt_offset": 10
+                },
+                "name": "DeepDetect ",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -605.794715702227,
+                "y": 1266.7747953452276
+            }
+        },
+        {
+            "id": "{a9684823-1f0d-4baf-b6cf-2f9639094e16}",
+            "model": {
+                "height": 104,
+                "label": {
+                    "bold": false,
+                    "console": "",
+                    "font": "Ubuntu",
+                    "height": 408,
+                    "key": "var obj_ok = payload.DeepDetect.obj_count[1].count\nvar sum_objs = payload.DeepDetect.obj_count[0].count + payload.DeepDetect.obj_count[1].count \nvar percentage = (obj_ok  / sum_objs) * 100\n\nlabel = \"จำนวน Relay สมบูรณ์  \"+obj_ok + \"  ตัว \\nคิดเป็น  \" + percentage.toFixed(2) + \" %  จากทั้งหมด\"\n\n",
+                    "size": 14,
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "splt0": 248,
+                        "splt1": 62,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    },
+                    "width": 780
+                },
+                "name": "Label",
+                "node_enable": true,
+                "width": 263
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -320.55616528925634,
+                "y": 1189.0282892561977
+            }
+        },
+        {
+            "id": "{ce6b060a-9d83-42e8-803c-58da371ab2bd}",
+            "model": {
+                "height": 458,
+                "name": "Debug",
+                "output_h": 0,
+                "output_v": 0,
+                "page_index": 2,
+                "payload_h": 0,
+                "payload_v": 0,
+                "width": 575
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": 139.24250725990024,
+                "y": 948.7047935959013
+            }
+        },
+        {
+            "id": "{26c17e2a-d793-4ea8-a800-b07cfc0ded12}",
+            "model": {
+                "height": 101,
+                "label": {
+                    "bold": false,
+                    "font": "Ubuntu",
+                    "height": 382,
+                    "key": "var obj_ng = payload.DeepDetect.obj_count[0].count\nvar sum_objs = payload.DeepDetect.obj_count[0].count + payload.DeepDetect.obj_count[1].count \nvar percentage = (obj_ng  / sum_objs) * 100\n\n\nlabel = \"Relay ไม่สมบูรณ์  \" + obj_ng + \"  ตัว\\nคิดเป็น  \" + percentage.toFixed(2) + \" %  จากทั้งหมด\"\n\n",
+                    "size": 14,
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "splt0": 227,
+                        "splt1": 57,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    },
+                    "width": 716
+                },
+                "name": "Label",
+                "node_enable": true,
+                "width": 304
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -324.02797069872315,
+                "y": 1353.8743711495124
+            }
+        },
+        {
+            "id": "{9d202e7f-6dfc-4322-ab33-09b1cd1f8b6d}",
+            "model": {
+                "data": {
+                    "form": false,
+                    "have_image": true,
+                    "have_sticker": false,
+                    "js_script": "var obj_ng = payload.DeepDetect.obj_count[0].count\nvar obj_ok = payload.DeepDetect.obj_count[1].count\nvar sum_objs = payload.DeepDetect.obj_count[0].count + payload.DeepDetect.obj_count[1].count \nvar percentage_ok = (obj_ok  / sum_objs) * 100\nvar percentage_ng = (obj_ng  / sum_objs) * 100\n\n\nline_msg = \"\\nจำนวน Relay ทั้งหมด  \" + sum_objs + \"  ตัว\\n\\nจำนวน Relay สมบูรณ์  \"+obj_ok + \"  ตัว \\n-คิดเป็น  \" + percentage_ok.toFixed(2)  + \" %  จากทั้งหมด\\n\\nRelay ไม่สมบูรณ์  \" + obj_ng + \"  ตัว\\n- คิดเป็น  \" + percentage_ng.toFixed(2) + \" %  จากทั้งหมด\"",
+                    "message": "",
+                    "script": true,
+                    "sticker_index": 1,
+                    "sticker_package": 1,
+                    "token": "0dO7t47LegKVIFzOLxGreV1ai4rJmw7Gd5CeQno3dXc"
+                },
+                "name": "LineNotify",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -205.1445454545452,
+                "y": 1548.2463636363616
+            }
+        },
+        {
+            "id": "{956ab2ae-438a-4b2e-bfd9-b04812ecdf3d}",
+            "model": {
+                "delay_time": 10000,
+                "name": "Delay",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -363.1760000000001,
+                "y": 1538.592
+            }
+        },
+        {
+            "id": "{59526fdd-38b1-452b-92b4-5e1255cd227b}",
+            "model": {
+                "data": {
+                    "console": "",
+                    "height": 359,
+                    "js_code": "var state = payload.DeepDetect.objects\nvar len = state.length\n\nfor(var i = 0; i < len; i++){\n     if(state[i].name == \"NG\"){\n         ifelse = true\n    }if(state[i].name == \"OK\"){\n         ifelse = false\n    }\n}",
+                    "widget_state": {
+                        "auto_indent": true,
+                        "auto_parent": true,
+                        "size": 11,
+                        "splt0": 282,
+                        "splt1": 70,
+                        "style": "Dracula",
+                        "widget_st_w": 0,
+                        "word_wrap": false
+                    },
+                    "width": 322
+                },
+                "name": "IfElse",
+                "node_enable": true
+            },
+            "ngo": {
+                "comment": {
+                    "data": "",
+                    "show": false
+                }
+            },
+            "position": {
+                "x": -15.116607916682682,
+                "y": 425.91710222780955
+            }
+        }
+    ],
+    "scene_data": {
+        "flow_view_pos_x": -439.75010099626513,
+        "flow_view_pos_y": 1229.173143668694,
+        "flow_view_zoom_factor": 0.5644739300537778
+    }
+}
